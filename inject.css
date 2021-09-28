@@ -1,0 +1,21 @@
+
+* {
+    font-family: Monaco, monospace, !important;
+    font-size: 13px;
+}
+
+#Top {
+    border-bottom:0px solid #22303f;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+@media (prefers-color-scheme:dark) {
+    #Top {
+        background-color: #000000;
+    }
+    #Wrapper {
+        background-color:#000000
+    }
+}
